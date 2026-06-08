@@ -1,0 +1,5 @@
+# Ignore the large dataset
+data/creditcard.csv
+
+# Optional but recommended: Ignore model weights if they get too large
+models/*.pkl
