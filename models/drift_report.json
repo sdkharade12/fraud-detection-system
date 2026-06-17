@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-06-17T17:29:42.440118",
+  "reference_size": 22784,
+  "current_size": 50,
+  "overall_status": "HEALTHY",
+  "drifted_features": [
+    "V24",
+    "Amount_log",
+    "Hour_Sin"
+  ],
+  "drift_count": 3,
+  "total_features": 31,
+  "psi_amount": {
+    "value": null,
+    "status": "INSUFFICIENT_DATA"
+  },
+  "ks_results": {
+    "V1": {
+      "ks_statistic": 0.112732,
+      "p_value": 0.512698,
+      "drift_detected": false
+    },
+    "V2": {
+      "ks_statistic": 0.111794,
+      "p_value": 0.523325,
+      "drift_detected": false
+    },
+    "V3": {
+      "ks_statistic": 0.131615,
+      "p_value": 0.323021,
+      "drift_detected": false
+    },
+    "V4": {
+      "ks_statistic": 0.069222,
+      "p_value": 0.956789,
+      "drift_detected": false
+    },
+    "V5": {
+      "ks_statistic": 0.102814,
+      "p_value": 0.628624,
+      "drift_detected": false
+    },
+    "V6": {
+      "ks_statistic": 0.130293,
+      "p_value": 0.334583,
+      "drift_detected": false
+    },
+    "V7": {
+      "ks_statistic": 0.101977,
+      "p_value": 0.638642,
+      "drift_detected": false
+    },
+    "V8": {
+      "ks_statistic": 0.102496,
+      "p_value": 0.632424,
+      "drift_detected": false
+    },
+    "V9": {
+      "ks_statistic": 0.148408,
+      "p_value": 0.199766,
+      "drift_detected": false
+    },
+    "V10": {
+      "ks_statistic": 0.080539,
+      "p_value": 0.876011,
+      "drift_detected": false
+    },
+    "V11": {
+      "ks_statistic": 0.161503,
+      "p_value": 0.131693,
+      "drift_detected": false
+    },
+    "V12": {
+      "ks_statistic": 0.151024,
+      "p_value": 0.184343,
+      "drift_detected": false
+    },
+    "V13": {
+      "ks_statistic": 0.060446,
+      "p_value": 0.98799,
+      "drift_detected": false
+    },
+    "V14": {
+      "ks_statistic": 0.08516,
+      "p_value": 0.831306,
+      "drift_detected": false
+    },
+    "V15": {
+      "ks_statistic": 0.120593,
+      "p_value": 0.427626,
+      "drift_detected": false
+    },
+    "V16": {
+      "ks_statistic": 0.120527,
+      "p_value": 0.428314,
+      "drift_detected": false
+    },
+    "V17": {
+      "ks_statistic": 0.15509,
+      "p_value": 0.162234,
+      "drift_detected": false
+    },
+    "V18": {
+      "ks_statistic": 0.091585,
+      "p_value": 0.761357,
+      "drift_detected": false
+    },
+    "V19": {
+      "ks_statistic": 0.072781,
+      "p_value": 0.936308,
+      "drift_detected": false
+    },
+    "V20": {
+      "ks_statistic": 0.079745,
+      "p_value": 0.88309,
+      "drift_detected": false
+    },
+    "V21": {
+      "ks_statistic": 0.090416,
+      "p_value": 0.774601,
+      "drift_detected": false
+    },
+    "V22": {
+      "ks_statistic": 0.105948,
+      "p_value": 0.591323,
+      "drift_detected": false
+    },
+    "V23": {
+      "ks_statistic": 0.112939,
+      "p_value": 0.510362,
+      "drift_detected": false
+    },
+    "V24": {
+      "ks_statistic": 0.19223,
+      "p_value": 0.04304,
+      "drift_detected": true
+    },
+    "V25": {
+      "ks_statistic": 0.11379,
+      "p_value": 0.500809,
+      "drift_detected": false
+    },
+    "V26": {
+      "ks_statistic": 0.18737,
+      "p_value": 0.052046,
+      "drift_detected": false
+    },
+    "V27": {
+      "ks_statistic": 0.112558,
+      "p_value": 0.514661,
+      "drift_detected": false
+    },
+    "V28": {
+      "ks_statistic": 0.127949,
+      "p_value": 0.355753,
+      "drift_detected": false
+    },
+    "Amount_log": {
+      "ks_statistic": 0.765356,
+      "p_value": 0.0,
+      "drift_detected": true
+    },
+    "Hour_Sin": {
+      "ks_statistic": 0.212314,
+      "p_value": 0.01862,
+      "drift_detected": true
+    },
+    "Hour_Cos": {
+      "ks_statistic": 0.183053,
+      "p_value": 0.061361,
+      "drift_detected": false
+    }
+  }
+}
