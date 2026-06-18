@@ -148,7 +148,7 @@ def predict(transaction: Transaction):
         # --- Decision Logic ---
         if fraud_probability >= THRESHOLD:
             decision = "BLOCK"
-        elif fraud_probability >= THRESHOLD * 0.6:
+        elif fraud_probability >= 0.01:
             decision = "FLAG"
         else:
             decision = "APPROVE"
