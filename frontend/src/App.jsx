@@ -84,6 +84,11 @@ export default function App() {
     setLoading(false)
   }
 
+  const clearLog = () => {
+    setTransactions([])
+    setLatencyData([])
+  }
+
   // Compute stats
   const total = transactions.length
   const fraudCount = transactions.filter(t => t.decision !== 'APPROVE').length
@@ -153,8 +158,8 @@ export default function App() {
           <StatCard label="Fraud Detected"   value={fraudCount}   color="#8e44ad" />
         </div>
 
-        {/* Simulate Button */}
-        <div style={{ marginBottom: '24px' }}>
+        {/* Buttons */}
+        <div style={{ marginBottom: '24px', display: 'flex', gap: '12px' }}>
           <button
             onClick={simulate}
             disabled={loading}
@@ -171,6 +176,24 @@ export default function App() {
             }}
           >
             {loading ? 'Simulating...' : '⚡ Simulate Transaction'}
+          </button>
+
+          <button
+            onClick={clearLog}
+            disabled={transactions.length === 0}
+            style={{
+              background: 'white',
+              color: transactions.length === 0 ? '#b2bec3' : '#e74c3c',
+              border: `1px solid ${transactions.length === 0 ? '#dfe6e9' : '#f5c6cb'}`,
+              padding: '12px 24px',
+              borderRadius: '8px',
+              fontSize: '14px',
+              fontWeight: '600',
+              cursor: transactions.length === 0 ? 'not-allowed' : 'pointer',
+              transition: 'all 0.2s'
+            }}
+          >
+            🗑️ Clear Log
           </button>
         </div>
 
